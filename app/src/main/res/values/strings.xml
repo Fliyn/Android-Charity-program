@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fliyn Projesi</string>
+    <string name="name">Fliyn Projesi</string>
+    <string name="user_name">User Name</string>
+    <string name="button">Button</string>
+    <string name="haberler">Haberler</string>
+    <string name="ana_sayfa">Ana Sayfa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="ho_geldiniz">Hoşgeldiniz</string>
+    <string name="ho_geld_n">HOŞGELDİN!</string>
+    <string name="ho_geldin">Hoşgeldin</string>
+    <string name="ba_yap">Bağış yap</string>
+    <string name="ba_miktar">Bağış miktarı</string>
+    <string name="etk_nl_kler">ETKİNLİKLER</string>
+    <string name="corona_d_nemi_etkinli_miz_bulunmamaktad_r">Corona dönemi etkinliğmiz bulunmamaktadır.</string>
+    <string name="todo">TODO</string>
+    <string name="ba_miktar_tl">Bağış Miktarı(TL)</string>
+    <string name="ba_yapt_n_z_i_in_te_ekk_rler">Bağış yaptığınız için teşekkürler.</string>
+    <string name="toplam_ba_miktar_n_z">Toplam Bağış Miktarınız:</string>
+</resources>
