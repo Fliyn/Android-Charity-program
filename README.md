@@ -1,1 +1,1 @@
-Yapımında Android Studio kullanılmıştır.
+
