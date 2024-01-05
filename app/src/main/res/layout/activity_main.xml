@@ -8,95 +8,89 @@
 
     <EditText
         android:id="@+id/Username"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="101dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BDBDBD"
         android:ems="10"
         android:hint="İsim"
-        android:background="#BDBDBD"
         android:inputType="textPersonName"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/Password"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/Password"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="101dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#BDBDBD"
         android:ems="10"
         android:hint="Şifre"
         android:inputType="textPassword"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/RePassword"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Username" />
+        app:layout_constraintTop_toBottomOf="@+id/Username"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/RePassword"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginEnd="101dp"
-        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#BDBDBD"
         android:ems="10"
         android:hint="Şifre"
         android:inputType="textPassword"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Password" />
+        app:layout_constraintTop_toBottomOf="@+id/Password"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="233dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="89dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="89dp"
+        android:layout_height="wrap_content"
         android:text="Kayıt ol"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/RePassword" />
+        app:layout_constraintTop_toBottomOf="@+id/RePassword"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="219dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="96dp"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="96dp"
-        android:layout_marginBottom="36dp"
+        android:layout_height="wrap_content"
         android:text="Kayıtlı hesap"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.5" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="144dp"
         android:layout_height="117dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="134dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="50dp"
         app:layout_constraintBottom_toTopOf="@+id/Username"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/png_clipart_letter_f_f_eacute_e_angle_black" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             Boolean insert = DB.insertdata("Anonim Bağışçı","15766320017",0);
             //Boolean insert = DB.insertdata("Anonim Bağışçı",0017,para);
             if(insert==true){
-                Toast.makeText(MainActivity.this,"Welcome Star light",Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"anonym Veriables Loaded",Toast.LENGTH_SHORT).show();
             }else{
                 Toast.makeText(MainActivity.this,"Another Time",Toast.LENGTH_SHORT).show();
             }

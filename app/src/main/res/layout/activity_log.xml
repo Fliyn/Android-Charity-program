@@ -8,83 +8,72 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="144dp"
-        android:layout_height="117dp"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="134dp"
-        android:layout_marginBottom="15dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:background="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/Username"
+        app:layout_constraintBottom_toTopOf="@+id/Username1"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
         app:srcCompat="@drawable/png_clipart_letter_f_f_eacute_e_angle_black" />
 
     <EditText
         android:id="@+id/Username1"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="104dp"
-        android:layout_marginTop="250dp"
-        android:layout_marginEnd="106dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#BDBDBD"
         android:ems="10"
         android:hint="İsim"
         android:inputType="textPersonName"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/Password1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/Password1"
-        android:layout_width="220dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="101dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="101dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#BDBDBD"
         android:ems="10"
         android:hint="Şifre"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/RePassword"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Username1" />
+        app:layout_constraintTop_toBottomOf="@+id/Username1"
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="233dp"
-        android:layout_height="59dp"
-        android:layout_marginStart="154dp"
-        android:layout_marginTop="229dp"
-        android:layout_marginEnd="164dp"
-        android:layout_marginBottom="110dp"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
         android:text="Giriş Yap"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.464"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Password1"
-        app:layout_constraintVertical_bias="0.842" />
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="219dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="125dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="154dp"
-        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
         android:text="Kayıt Olma"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
